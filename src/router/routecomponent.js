@@ -4,6 +4,8 @@ import LayoutDashboard from "../widgets/LayoutDashboard";
 import LayoutLanding from "../widgets/LayoutLanding";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Home from "../pages/home";
+import Profile from "../pages/profile";
+import Portfolio from "../pages/portfolio";
 
 const RouteComponent = () => {
 
@@ -17,6 +19,8 @@ const RouteComponent = () => {
               element={
                 <LayoutLanding>
                   <Home />
+                  <Profile />
+                  <Portfolio />
                 </LayoutLanding>
               }
             />

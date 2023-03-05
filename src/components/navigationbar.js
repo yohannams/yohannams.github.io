@@ -3,11 +3,18 @@ import { Link } from "react-router-dom";
 import { Navbar } from "flowbite-react";
 
 const NavigationBar = () => {
+  const handleClickScroll = (e) => {
+    const element = document.getElementById(e);
+    if (element) {
+      // 👇 Will scroll smoothly to the top of the next section
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
-    <div className="w-11/12 mx-auto">
-      <Navbar fluid={true} rounded={true}>
-        <div className="container flex flex-wrap items-center justify-between mx-auto">
+    <div className="">
+      <Navbar fluid={true} rounded={true} className="w-full fixed p-0 bg-transparent" style={{backgroundColor:'transparent'}}>
+        <div className="container flex flex-wrap items-center justify-between mx-auto w-11/12 mx-auto">
           <Link to="/" className="flex items-center">
             {/* <img
               src={LogoFinal}
@@ -17,27 +24,30 @@ const NavigationBar = () => {
           </Link>
           <Navbar.Toggle />
           <Navbar.Collapse>
-            <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul className="flex flex-col mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 dark:border-gray-700">
                 <li className="mr-2">
                     <Link
                     to="/"
                     className="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                    onClick={() => handleClickScroll('home')}
                     >
                     Home
                     </Link>
                 </li>
                 <li className="mr-2">
                     <Link
-                    to="/profile"
+                    to="/"
                     className="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                    onClick={() => handleClickScroll('profile')}
                     >
                     Profile
                     </Link>
                 </li>
                 <li className="mr-2">
                     <Link
-                    to="/portfolio"
+                    to="/"
                     className="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                    onClick={() => handleClickScroll('portfolio')}
                     >
                     Portfolio
                     </Link>

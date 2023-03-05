@@ -6,7 +6,7 @@ const LayoutLanding = (props) => {
 
     return(
         <>
-            <div className="container mx-auto w-11/12">
+            <div className="mx-auto">
                 <NavigationBar />
                 <div>
                     {props.children}
