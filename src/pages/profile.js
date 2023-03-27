@@ -5,7 +5,7 @@ const Profile = () => {
     <>
       <section
         id="profile"
-        className="h-screen lg:px-60 lg:py-60 md:px-20 md:py-20 sm:px-10 sm:py-10"
+        className="h-screen lg:px-60 lg:py-60 md:px-20 md:py-20 sm:px-10 sm:py-10 flex flex-col items-center justify-center min-h-screen"
       >
         <h5 className="font-semibold text-center">A little about me</h5>
         <label className="font-semibold text-center text-xl mt-9">

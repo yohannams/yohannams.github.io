@@ -18,7 +18,7 @@ const Portfolio = () => {
       >
         <div
           style={backgroundStyle}
-          className="lg:px-60 lg:py-60 md:px-20 md:py-20 sm:px-10 sm:py-10 h-screen items-center text-center"
+          className="lg:px-60 lg:py-60 md:px-20 md:py-20 sm:px-10 sm:py-10 h-screen items-center text-center flex flex-col justify-center min-h-screen"
         >
           <h1 className="font-semibold text-center text-2xl mb-8">My Work</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-3/5 mx-auto">
