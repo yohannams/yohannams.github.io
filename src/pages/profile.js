@@ -9,10 +9,10 @@ const Profile = () => {
       >
         <h5 className="font-semibold text-center">A little about me</h5>
         <label className="font-semibold text-center text-xl mt-9">
-          I am a frontend developer with 5 years of experience in building
-          responsive and user-friendly websites. I specialize in using HTML5,
-          CSS3, and JavaScript to create modern and intuitive user interfaces
-          that enhance user experience.
+          I am a frontend developer. I have experience working with HTML,
+          JavaScript, jQuery, CSS, and Bootstrap. I have also studied about
+          React.js and Next.js during my bootcamp. Additionally, I have gained
+          knowledge in QA through bootcamp sessions using Cypress and Selenium.
         </label>
       </section>
     </>
