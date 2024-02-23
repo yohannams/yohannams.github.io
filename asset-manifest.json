@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.0dcebe8c.css",
-    "main.js": "/static/js/main.f3a31309.js",
+    "main.css": "/static/css/main.d9b30335.css",
+    "main.js": "/static/js/main.6b49bed8.js",
+    "static/media/connect-bg.jpg": "/static/media/connect-bg.2c2c007f93af065a4789.jpg",
+    "static/media/hello-bg.jpg": "/static/media/hello-bg.b4e3c63a12fa2eeb327a.jpg",
     "static/media/image1.jpg": "/static/media/image1.3e3ffe53c06672855797.jpg",
     "static/media/avatar.png": "/static/media/avatar.d20b028fdf305f2bfd4e.png",
     "static/media/logoMaranatha.png": "/static/media/logoMaranatha.7aaee648f1ff1da5d5fd.png",
     "index.html": "/index.html",
-    "main.0dcebe8c.css.map": "/static/css/main.0dcebe8c.css.map",
-    "main.f3a31309.js.map": "/static/js/main.f3a31309.js.map"
+    "main.d9b30335.css.map": "/static/css/main.d9b30335.css.map",
+    "main.6b49bed8.js.map": "/static/js/main.6b49bed8.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dcebe8c.css",
-    "static/js/main.f3a31309.js"
+    "static/css/main.d9b30335.css",
+    "static/js/main.6b49bed8.js"
   ]
 }
