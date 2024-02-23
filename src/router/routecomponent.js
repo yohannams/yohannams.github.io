@@ -6,9 +6,10 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Home from "../pages/home";
 import Profile from "../pages/profile";
 import Portfolio from "../pages/portfolio";
+import Contact from "../pages/contact";
+import Footer from "../components/footer";
 
 const RouteComponent = () => {
-
   return (
     <>
       <BrowserRouter>
@@ -21,6 +22,7 @@ const RouteComponent = () => {
                   <Home />
                   <Profile />
                   <Portfolio />
+                  <Contact />
                 </LayoutLanding>
               }
             />

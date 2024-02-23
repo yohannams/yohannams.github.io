@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 .Card img {
-    object-fit: cover;
-    height: 100%;
-  }
+  object-fit: cover;
+  height: 100%;
+}
+.title {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 52px;
+}
