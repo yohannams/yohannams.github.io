@@ -1,6 +1,6 @@
 import React from "react";
 // import background from "../img/background.jpg";
-import avatar from "../img/avatar.png";
+import avatar from "../img/Yohanna.jpg";
 
 const Home = () => {
   const backgroundStyle = {
@@ -19,7 +19,7 @@ const Home = () => {
           <img
             alt="background"
             src={avatar}
-            style={{ width: "100px", height: "100px" }}
+            style={{ width: "150px", height: "150px", borderRadius: "50%" }}
             className="mx-auto"
           />
           <label className="font-bold text-center title">

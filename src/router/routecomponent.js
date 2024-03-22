@@ -20,7 +20,7 @@ const RouteComponent = () => {
               element={
                 <LayoutLanding>
                   <Home />
-                  <Profile />
+                  {/* <Profile /> */}
                   <Portfolio />
                   <Contact />
                 </LayoutLanding>

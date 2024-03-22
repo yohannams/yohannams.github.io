@@ -1,29 +1,28 @@
 import React from "react";
 import { Card } from "flowbite-react";
-import portfolio1 from "../img/image1.jpg";
-import portfolio3 from "../img/logoMaranatha.png";
+import portfolio4 from "../img/Portfolio-job.png";
+import portfolio3 from "../img/Portfolio-inv.png";
+import portfolio2 from "../img/Portfolio-kp.png";
+import portfolio1 from "../img/Portfolio-maranatha.png";
 
 const Portfolio = () => {
   const backgroundStyle = {
-    background: "rgb(238,174,202)",
-    background:
-      "radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(219,177,209,1) 8%, rgba(218,177,209,1) 16%, rgba(218,177,209,1) 22%, rgba(213,178,211,1) 28%, rgba(199,180,216,1) 43%, rgba(187,181,220,1) 56%, rgba(174,183,224,1) 71%, rgba(165,184,227,1) 81%, rgba(148,187,233,1) 100%)",
+    background: "linear-gradient(261deg, #c69bf2, #8ef988, #91d7f5, #f3df8c)",
+    backgroundSize: "800% 800%",
+    animation: "AnimationName 32s ease infinite",
   };
 
   return (
     <>
-      <section
-        id="portfolio"
-        className="mx-auto w-full h-screen justify-center"
-      >
+      <section id="portfolio" className="mx-auto w-full h-fit justify-center">
         <div
           style={backgroundStyle}
-          className="lg:px-60 lg:py-60 md:px-20 md:py-20 sm:px-10 sm:py-10 h-screen items-center text-center flex flex-col justify-center min-h-screen"
+          className="lg:px-60 lg:py-20 md:px-60 md:py-20 sm:px-10 sm:py-10 h-fit items-center flex flex-col justify-center min-h-screen"
         >
           <h1 className="font-semibold text-center text-2xl mb-8">
             Work & Projects
           </h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-3/5 mx-auto">
+          {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-3/5 mx-auto">
             <div className="flex flex-col max-w-xs mx-auto">
               <a
                 href="https://silly-crepe-7acfd3.netlify.app/"
@@ -59,6 +58,135 @@ const Portfolio = () => {
                   </div>
                 </Card>
               </a>
+            </div>
+          </div> */}
+          <div className="grid grid-cols-3 gap-1 mx-auto">
+            <a
+              href="https://one.maranatha.edu/"
+              target="_blank"
+              className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+            >
+              <div className="mb-4">
+                <img
+                  src={portfolio1}
+                  className="grow h-full flex-1 rounded-lg w-92"
+                ></img>
+              </div>
+            </a>
+            <div className="col-span-2 mb-4 p-2">
+              <div className="">
+                <h5 className="text-l font-bold text-gray-900 dark:text-white grow mb-2">
+                  Maranatha One
+                </h5>
+                <div className="inline-flex gap-x-2 text-white">
+                  <p className="text-xs bg-blue-500 rounded-3xl p-2">HTML</p>
+                  <p className="text-xs grow bg-blue-500 rounded-3xl p-2">
+                    CSS
+                  </p>
+                  <p className="text-xs grow bg-blue-500 rounded-3xl p-2">
+                    Javascript
+                  </p>
+                  <p className="text-xs grow bg-blue-500 rounded-3xl p-2">
+                    jQuery
+                  </p>
+                  <p className="text-xs grow bg-blue-500 rounded-3xl p-2">
+                    Bootstrap
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="mb-4">
+              <a
+                href="https://kamarpelajar.id/"
+                target="_blank"
+                className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              >
+                <img
+                  src={portfolio2}
+                  className="grow h-full flex-1 rounded-lg w-92"
+                ></img>
+              </a>
+            </div>
+            <div className="col-span-2 mb-4 p-2">
+              <div className="">
+                <h5 className="text-l font-bold text-gray-900 dark:text-white grow mb-2">
+                  Kamar Pelajar
+                </h5>
+                <div className="inline-flex gap-x-2 text-white">
+                  <p className="text-xs bg-blue-500 rounded-3xl p-2">HTML</p>
+                  <p className="text-xs grow bg-blue-500 rounded-3xl p-2">
+                    CSS
+                  </p>
+                  <p className="text-xs grow bg-blue-500 rounded-3xl p-2">
+                    Javascript
+                  </p>
+                  <p className="text-xs grow bg-blue-500 rounded-3xl p-2">
+                    Laravel
+                  </p>
+                  <p className="text-xs grow bg-blue-500 rounded-3xl p-2">
+                    Bootstrap
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="mb-4">
+              <a
+                href="https://yohannams.github.io/by-invitation/"
+                target="_blank"
+                className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              >
+                <img
+                  src={portfolio3}
+                  className="grow h-full flex-1 rounded-lg w-92"
+                ></img>
+              </a>
+            </div>
+            <div className="col-span-2 mb-4 p-2">
+              <div className="">
+                <h5 className="text-l font-bold text-gray-900 dark:text-white grow mb-2">
+                  Wedding Invitation
+                </h5>
+                <div className="inline-flex gap-x-2 text-white">
+                  <p className="text-xs bg-blue-500 rounded-3xl p-2">HTML</p>
+                  <p className="text-xs grow bg-blue-500 rounded-3xl p-2">
+                    CSS
+                  </p>
+                  <p className="text-xs grow bg-blue-500 rounded-3xl p-2">
+                    Javascript
+                  </p>
+                  <p className="text-xs grow bg-blue-500 rounded-3xl p-2">
+                    Bootstrap
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="mb-4">
+              <a
+                href="https://silly-crepe-7acfd3.netlify.app/"
+                target="_blank"
+                className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              >
+                <img
+                  src={portfolio4}
+                  className="grow h-full flex-1 rounded-lg w-92"
+                ></img>
+              </a>
+            </div>
+            <div className="col-span-2 mb-4 p-2">
+              <div className="">
+                <h5 className="text-l font-bold text-gray-900 dark:text-white grow mb-2">
+                  Job Portal
+                </h5>
+                <div className="inline-flex gap-x-2 text-white">
+                  <p className="text-xs bg-blue-500 rounded-3xl p-2">React</p>
+                  <p className="text-xs grow bg-blue-500 rounded-3xl p-2">
+                    Tailwind
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
