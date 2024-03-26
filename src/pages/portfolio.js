@@ -10,6 +10,8 @@ const Portfolio = () => {
     background: "linear-gradient(261deg, #c69bf2, #8ef988, #91d7f5, #f3df8c)",
     backgroundSize: "800% 800%",
     animation: "AnimationName 32s ease infinite",
+    paddingTop: "150px",
+    paddingBottom: "150px",
   };
 
   return (
@@ -17,50 +19,13 @@ const Portfolio = () => {
       <section id="portfolio" className="mx-auto w-full h-fit justify-center">
         <div
           style={backgroundStyle}
-          className="lg:px-60 lg:py-20 md:px-60 md:py-20 sm:px-10 sm:py-10 h-fit items-center flex flex-col justify-center min-h-screen"
+          className="px-6 py-6 sm:px-10 sm:py-20 items-center flex flex-col justify-center min-h-screen"
         >
-          <h1 className="font-semibold text-center text-2xl mb-8">
+          <h1 className="font-semibold text-center text-2xl sm:text-3xl mb-8 sm:mb-12 lg:mb-16">
             Work & Projects
           </h1>
-          {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-3/5 mx-auto">
-            <div className="flex flex-col max-w-xs mx-auto">
-              <a
-                href="https://silly-crepe-7acfd3.netlify.app/"
-                target="_blank"
-                className="h-full"
-              >
-                <Card imgSrc={portfolio1} className="h-full grow">
-                  <div className="">
-                    <h5 className="text-l font-bold tracking-tight text-gray-900 dark:text-white grow">
-                      Final Project Bootcamp (Sanbercode)
-                    </h5>
-                    <p className="text-m font-semibold tracking-tight text-gray-900 dark:text-white grow">
-                      React, Tailwind
-                    </p>
-                  </div>
-                </Card>
-              </a>
-            </div>
-            <div className="flex flex-col max-w-xs mx-auto">
-              <a
-                href="https://one.maranatha.edu/"
-                target="_blank"
-                className="h-full"
-              >
-                <Card imgSrc={portfolio3} className="grow h-full flex-1">
-                  <div className="">
-                    <h5 className="text-l font-bold text-gray-900 dark:text-white grow">
-                      University Internal Website
-                    </h5>
-                    <p className="text-m font-semibold text-gray-900 dark:text-white grow">
-                      HTML5, CSS3, Javascript, Bootstrap
-                    </p>
-                  </div>
-                </Card>
-              </a>
-            </div>
-          </div> */}
-          <div className="grid grid-cols-3 gap-1 mx-auto">
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full md:w-3/4 lg:w-1/2 mx-auto">
             <a
               href="https://one.maranatha.edu/"
               target="_blank"
@@ -73,7 +38,7 @@ const Portfolio = () => {
                 ></img>
               </div>
             </a>
-            <div className="col-span-2 mb-4 p-2">
+            <div className="mb-4 p-2">
               <div className="">
                 <h5 className="text-l font-bold text-gray-900 dark:text-white grow mb-2">
                   Maranatha One
@@ -108,7 +73,7 @@ const Portfolio = () => {
                 ></img>
               </a>
             </div>
-            <div className="col-span-2 mb-4 p-2">
+            <div className="mb-4 p-2">
               <div className="">
                 <h5 className="text-l font-bold text-gray-900 dark:text-white grow mb-2">
                   Kamar Pelajar
@@ -143,7 +108,7 @@ const Portfolio = () => {
                 ></img>
               </a>
             </div>
-            <div className="col-span-2 mb-4 p-2">
+            <div className="mb-4 p-2">
               <div className="">
                 <h5 className="text-l font-bold text-gray-900 dark:text-white grow mb-2">
                   Wedding Invitation
@@ -175,7 +140,7 @@ const Portfolio = () => {
                 ></img>
               </a>
             </div>
-            <div className="col-span-2 mb-4 p-2">
+            <div className="mb-4 p-2">
               <div className="">
                 <h5 className="text-l font-bold text-gray-900 dark:text-white grow mb-2">
                   Job Portal

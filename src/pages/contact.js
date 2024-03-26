@@ -13,6 +13,7 @@ const Contact = () => {
           backgroundPosition: "center",
         }}
       >
+        {/* <div className="bg-white bg-opacity-50 fixed top-0 right-0 bottom-0 left-0"></div> */}
         <h5 className="font-semibold text-center title">Let's connect!</h5>
         <div className="flex">
           <a
