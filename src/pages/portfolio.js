@@ -43,6 +43,12 @@ const Portfolio = () => {
                 <h5 className="text-l font-bold text-gray-900 dark:text-white grow mb-2">
                   Maranatha One
                 </h5>
+                <p className="text-xs mb-4">
+                  Maranatha One is a website utilized by students, parents, and
+                  staff of Maranatha. This website serves as a platform for
+                  managing academic data of students, staff information,
+                  research, and providing academic updates.
+                </p>
                 <div className="inline-flex gap-x-2 text-white">
                   <p className="text-xs bg-blue-500 rounded-3xl p-2">HTML</p>
                   <p className="text-xs grow bg-blue-500 rounded-3xl p-2">
@@ -78,6 +84,11 @@ const Portfolio = () => {
                 <h5 className="text-l font-bold text-gray-900 dark:text-white grow mb-2">
                   Kamar Pelajar
                 </h5>
+                <p className="text-xs mb-4">
+                  Kamar Pelajar is a company operating in the travel tourism
+                  sector. The Kamar Pelajar website processes room data, user
+                  information, and room rentals worldwide.
+                </p>
                 <div className="inline-flex gap-x-2 text-white">
                   <p className="text-xs bg-blue-500 rounded-3xl p-2">HTML</p>
                   <p className="text-xs grow bg-blue-500 rounded-3xl p-2">
@@ -113,6 +124,11 @@ const Portfolio = () => {
                 <h5 className="text-l font-bold text-gray-900 dark:text-white grow mb-2">
                   Wedding Invitation
                 </h5>
+                <p className="text-xs mb-4">
+                  This website is able to confirm guests and provide greetings
+                  on the website, with the data being entered into a Google
+                  spreadsheet.
+                </p>
                 <div className="inline-flex gap-x-2 text-white">
                   <p className="text-xs bg-blue-500 rounded-3xl p-2">HTML</p>
                   <p className="text-xs grow bg-blue-500 rounded-3xl p-2">
@@ -145,6 +161,13 @@ const Portfolio = () => {
                 <h5 className="text-l font-bold text-gray-900 dark:text-white grow mb-2">
                   Job Portal
                 </h5>
+                <p className="text-xs mb-4">
+                  The website was developed during a React bootcamp conducted by
+                  Sanbercode. This website is capable of managing job data, such
+                  as viewing, editing, adding, and deleting data. It features
+                  job CRUD operations, filtering, searching, registration,
+                  login, and password changing functionalities.
+                </p>
                 <div className="inline-flex gap-x-2 text-white">
                   <p className="text-xs bg-blue-500 rounded-3xl p-2">React</p>
                   <p className="text-xs grow bg-blue-500 rounded-3xl p-2">
