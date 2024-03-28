@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "flowbite-react";
+import bg from "../img/bg.jpg";
 import portfolio4 from "../img/Portfolio-job.png";
 import portfolio3 from "../img/Portfolio-inv.png";
 import portfolio2 from "../img/Portfolio-kp.png";
@@ -7,11 +8,14 @@ import portfolio1 from "../img/Portfolio-maranatha.png";
 
 const Portfolio = () => {
   const backgroundStyle = {
-    background: "linear-gradient(261deg, #c69bf2, #8ef988, #91d7f5, #f3df8c)",
-    backgroundSize: "800% 800%",
-    animation: "AnimationName 32s ease infinite",
-    paddingTop: "150px",
-    paddingBottom: "150px",
+    // background: "linear-gradient(261deg, #c69bf2, #8ef988, #91d7f5, #f3df8c)",
+    // backgroundSize: "800% 800%",
+    // animation: "AnimationName 32s ease infinite",
+    // paddingTop: "150px",
+    // paddingBottom: "150px",
+    backgroundImage: `url(${bg})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
   };
 
   return (
@@ -40,7 +44,7 @@ const Portfolio = () => {
             </a>
             <div className="mb-4 p-2">
               <div className="">
-                <h5 className="text-l font-bold text-gray-900 dark:text-white grow mb-2">
+                <h5 className="text-l font-bold dark:text-white grow mb-2">
                   Maranatha One
                 </h5>
                 <p className="text-xs mb-4">
@@ -49,7 +53,7 @@ const Portfolio = () => {
                   managing academic data of students, staff information,
                   research, and providing academic updates.
                 </p>
-                <div className="inline-flex gap-x-2 text-white">
+                <div className="inline-flex gap-x-2 text-white spec">
                   <p className="text-xs bg-blue-500 rounded-3xl p-2">HTML</p>
                   <p className="text-xs grow bg-blue-500 rounded-3xl p-2">
                     CSS
@@ -81,7 +85,7 @@ const Portfolio = () => {
             </div>
             <div className="mb-4 p-2">
               <div className="">
-                <h5 className="text-l font-bold text-gray-900 dark:text-white grow mb-2">
+                <h5 className="text-l font-bold dark:text-white grow mb-2">
                   Kamar Pelajar
                 </h5>
                 <p className="text-xs mb-4">
@@ -89,7 +93,7 @@ const Portfolio = () => {
                   sector. The Kamar Pelajar website processes room data, user
                   information, and room rentals worldwide.
                 </p>
-                <div className="inline-flex gap-x-2 text-white">
+                <div className="inline-flex gap-x-2 text-white spec">
                   <p className="text-xs bg-blue-500 rounded-3xl p-2">HTML</p>
                   <p className="text-xs grow bg-blue-500 rounded-3xl p-2">
                     CSS
@@ -121,7 +125,7 @@ const Portfolio = () => {
             </div>
             <div className="mb-4 p-2">
               <div className="">
-                <h5 className="text-l font-bold text-gray-900 dark:text-white grow mb-2">
+                <h5 className="text-l font-bold dark:text-white grow mb-2">
                   Wedding Invitation
                 </h5>
                 <p className="text-xs mb-4">
@@ -129,7 +133,7 @@ const Portfolio = () => {
                   on the website, with the data being entered into a Google
                   spreadsheet.
                 </p>
-                <div className="inline-flex gap-x-2 text-white">
+                <div className="inline-flex gap-x-2 text-white spec">
                   <p className="text-xs bg-blue-500 rounded-3xl p-2">HTML</p>
                   <p className="text-xs grow bg-blue-500 rounded-3xl p-2">
                     CSS
@@ -158,7 +162,7 @@ const Portfolio = () => {
             </div>
             <div className="mb-4 p-2">
               <div className="">
-                <h5 className="text-l font-bold text-gray-900 dark:text-white grow mb-2">
+                <h5 className="text-l font-bold dark:text-white grow mb-2">
                   Job Portal
                 </h5>
                 <p className="text-xs mb-4">
@@ -168,7 +172,7 @@ const Portfolio = () => {
                   job CRUD operations, filtering, searching, registration,
                   login, and password changing functionalities.
                 </p>
-                <div className="inline-flex gap-x-2 text-white">
+                <div className="inline-flex gap-x-2 text-white spec">
                   <p className="text-xs bg-blue-500 rounded-3xl p-2">React</p>
                   <p className="text-xs grow bg-blue-500 rounded-3xl p-2">
                     Tailwind

@@ -1,12 +1,15 @@
 import React from "react";
-// import background from "../img/background.jpg";
+import background from "../img/bg2.jpg";
 import avatar from "../img/Yohanna.jpg";
 
 const Home = () => {
   const backgroundStyle = {
     // background: "rgb(238,174,202)",
-    background:
-      "radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(219,177,209,1) 8%, rgba(218,177,209,1) 16%, rgba(218,177,209,1) 22%, rgba(213,178,211,1) 28%, rgba(199,180,216,1) 43%, rgba(187,181,220,1) 56%, rgba(174,183,224,1) 71%, rgba(165,184,227,1) 81%, rgba(148,187,233,1) 100%)",
+    backgroundImage: `url(${background})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    // background:
+    //   "radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(219,177,209,1) 8%, rgba(218,177,209,1) 16%, rgba(218,177,209,1) 22%, rgba(213,178,211,1) 28%, rgba(199,180,216,1) 43%, rgba(187,181,220,1) 56%, rgba(174,183,224,1) 71%, rgba(165,184,227,1) 81%, rgba(148,187,233,1) 100%)",
   };
 
   return (
