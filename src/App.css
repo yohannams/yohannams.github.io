@@ -12,10 +12,8 @@
   font-style: normal;
   font-size: 52px;
 }
-*,
-svg {
+* {
   color: steelblue;
-  fill: steelblue;
 }
 .spec > p {
   color: white;

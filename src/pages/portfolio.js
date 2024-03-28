@@ -38,7 +38,7 @@ const Portfolio = () => {
               <div className="mb-4">
                 <img
                   src={portfolio1}
-                  className="grow h-full flex-1 rounded-lg w-92"
+                  className="grow h-full flex-1 rounded-lg w-92 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
                 ></img>
               </div>
             </a>
@@ -79,7 +79,7 @@ const Portfolio = () => {
               >
                 <img
                   src={portfolio2}
-                  className="grow h-full flex-1 rounded-lg w-92"
+                  className="grow h-full flex-1 rounded-lg w-92 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
                 ></img>
               </a>
             </div>
@@ -119,7 +119,7 @@ const Portfolio = () => {
               >
                 <img
                   src={portfolio3}
-                  className="grow h-full flex-1 rounded-lg w-92"
+                  className="grow h-full flex-1 rounded-lg w-92 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
                 ></img>
               </a>
             </div>
@@ -156,7 +156,7 @@ const Portfolio = () => {
               >
                 <img
                   src={portfolio4}
-                  className="grow h-full flex-1 rounded-lg w-92"
+                  className="grow h-full flex-1 rounded-lg w-92 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
                 ></img>
               </a>
             </div>
