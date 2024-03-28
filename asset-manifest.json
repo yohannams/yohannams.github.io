@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd3a98c1.css",
-    "main.js": "/static/js/main.23d9272f.js",
+    "main.css": "/static/css/main.90ae6b63.css",
+    "main.js": "/static/js/main.dc05de6d.js",
     "static/media/connect-bg.jpg": "/static/media/connect-bg.2c2c007f93af065a4789.jpg",
     "static/media/hello-bg.jpg": "/static/media/hello-bg.b4e3c63a12fa2eeb327a.jpg",
+    "static/media/bg2.jpg": "/static/media/bg2.050907f6e197caa2164d.jpg",
+    "static/media/bg.jpg": "/static/media/bg.d2c40c4acfdbc96eee09.jpg",
     "static/media/Yohanna.jpg": "/static/media/Yohanna.c80149da0e92c753b7ee.jpg",
     "static/media/Portfolio-kp.png": "/static/media/Portfolio-kp.1abc991a4c2648c90445.png",
     "static/media/Portfolio-inv.png": "/static/media/Portfolio-inv.4d85c616f1018bdddda4.png",
     "static/media/Portfolio-job.png": "/static/media/Portfolio-job.a1eac5ece7b23433f018.png",
     "static/media/Portfolio-maranatha.png": "/static/media/Portfolio-maranatha.8e17c4d9e53cef6c4859.png",
     "index.html": "/index.html",
-    "main.cd3a98c1.css.map": "/static/css/main.cd3a98c1.css.map",
-    "main.23d9272f.js.map": "/static/js/main.23d9272f.js.map"
+    "main.90ae6b63.css.map": "/static/css/main.90ae6b63.css.map",
+    "main.dc05de6d.js.map": "/static/js/main.dc05de6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd3a98c1.css",
-    "static/js/main.23d9272f.js"
+    "static/css/main.90ae6b63.css",
+    "static/js/main.dc05de6d.js"
   ]
 }
