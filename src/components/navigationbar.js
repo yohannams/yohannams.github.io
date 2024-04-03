@@ -22,7 +22,7 @@ const NavigationBar = () => {
           <li className="mr-2">
             <Link
               to="/"
-              className="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+              className="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:bg-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
               onClick={() => handleClickScroll("home")}
             >
               Home
@@ -40,16 +40,16 @@ const NavigationBar = () => {
           <li className="mr-2">
             <Link
               to="/"
-              className="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+              className="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:bg-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
               onClick={() => handleClickScroll("portfolio")}
             >
-              Work & Projects
+              Portfolio
             </Link>
           </li>
           <li className="mr-2">
             <Link
               to="/"
-              className="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+              className="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:bg-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
               onClick={() => handleClickScroll("contact")}
             >
               Contact

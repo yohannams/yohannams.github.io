@@ -1,6 +1,6 @@
 import React from "react";
 import background from "../img/bg2.jpg";
-import avatar from "../img/Yohanna.jpg";
+import avatar from "../img/Yohanna-bluebg.png";
 
 const Home = () => {
   const backgroundStyle = {
@@ -14,22 +14,21 @@ const Home = () => {
 
   return (
     <>
-      <div className="mx-auto w-full h-screen justify-center" id="home">
-        <div
-          style={backgroundStyle}
-          className="lg:px-60 lg:py-60 md:px-20 md:py-20 sm:px-10 sm:py-10 h-screen items-center text-center flex flex-col items-center justify-center min-h-screen"
-        >
+      <div
+        className="mx-auto w-full h-screen justify-center bg-slate-900"
+        id="home"
+      >
+        <div className="lg:px-60 lg:py-60 md:px-20 md:py-20 sm:px-10 sm:py-10 h-screen items-center text-center flex flex-col items-center justify-center min-h-screen">
           <img
             alt="background"
             src={avatar}
             style={{ width: "150px", height: "150px", borderRadius: "50%" }}
             className="mx-auto"
           />
-          <label className="font-bold text-center title">
-            Hello, I'm Yohanna!
+          <label className="font-bold text-center title text-slate-200">
+            Yohanna Marsella Santoso
           </label>
-          <br />
-          <label className="font-semibold text-center title">
+          <label className="font-semibold text-center text-lg text-slate-200">
             Frontend Developer
           </label>
         </div>

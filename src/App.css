@@ -13,8 +13,8 @@
   font-size: 52px;
 }
 * {
-  color: steelblue;
-}
-.spec > p {
   color: white;
+}
+body {
+  background-color: rgb(15 23 42);
 }
